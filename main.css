@@ -10,7 +10,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: grey;
-    background-image: url('img\pobierz.jpg'); 
+    background-image: url('img/R-removebg-preview.png'); 
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -187,9 +187,13 @@ h2{
 .skills__container {
     row-gap: 2rem;
     text-align: center;
+    border-top: 5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size:1.1rem;
+    background-color: gray;
+    transition: all;
+    
     
   }
   
@@ -200,69 +204,71 @@ h2{
   }
   
   .skills__text {
-    margin-bottom: 2rem;
+    margin-bottom: 25rem;
    
   }
   
   .skills__data {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     position: relative;
-    font-weight: 600;
-    padding: .5rem 1rem;
-    margin-bottom: 2rem;
-    border-radius: .5rem;
-    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    font-weight: 200;
+    padding: .2rem 1rem;
+    border-radius: 0rem;
+    
     
   }
   
   .skills__icon {
-    font-size: 2rem;
+    font-size: 1rem;
     margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
     color: blueviolet;
   }
   
   .skills__names {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
   
   .skills__bar {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    background-color: blueviolet;
+    left: 25;
+    right: 25;
+    top: 2rem;
+    background-color: yellow;
     height: .25rem;
-    border-radius: .5rem;
-    z-index: -10;
+    border-radius: .25rem;
+    box-shadow: 0px 4px 25px white;
+    
   }
   
   .skills__html {
-    width: 100%;
+    width: 95%;
   }
   
   .skills__css {
-    width:100%;
+    width:95%;
   }
   
   .skills__cs {
-    width: 100%;
+    width: 95%;
   }
   
   .skills__Java {
-    width: 100%;
+    width: 95%;
   }
-  .skills__pl {
-      width:-5%;
+  .skills__al {
+      width:20%;
     }
     
     .skills__eng {
-      width: 5%;
+      width: 80%;
     }
     
     .skills__jp {
-      width: 100%;
+      width: 80%;
     }
   .skills__img {
     border-radius: .5rem;
